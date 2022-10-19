@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+}
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+.wrapp {
+    background-color: #fff;
+    max-width: 375px; 
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 1em;
+}
+.content h2 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    padding-top: 1em;
+}
+.title p {
+    color: hsl(224, 23%, 55%);
+    padding: 1.5em;
+}
+.song {
+    background-color: hsl(225, 100%, 98%);
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.song h2 {
+    font-size: 15px;
+    padding: 6px; 
+}
+.info {
+    line-height: 15px;
+    text-align: center;
+}
+.info p {
+    color: hsl(224, 23%, 55%);
+}
+.song img {
+    margin: 0px -60px;
+}
+.song a {
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+.pay-cancel button {
+    display: block;
+    margin: 1em auto;
+    cursor: pointer;
+}
+.pay {
+    color: #fff;
+    background-color:hsl(245, 75%, 52%);
+    font-weight: 900;
+    padding: 1em 6em;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 20px 60px -13px hsl(245, 75%, 52%);
+}
+.cancel {
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+    border: none;
+    background: none;
+    padding: 2em;
+}
+a:hover {
+    text-decoration: none;
+    color: hsl(271, 100%, 50%);
+}
+.pay:hover {
+    background-color: hsl(271, 100%, 50%);
+    transition: background-color 0.4s ease;
+}
+.cancel:hover {
+    color: hsl(0, 0%, 0%);
+    transition: color 0.4s ease;
+}
