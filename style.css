@@ -18,6 +18,7 @@ body {
 }
 .wrapp {
     background-color: #fff;
+    min-width: 450px;
     max-width: 375px; 
     border-radius: 15px;
     overflow: hidden;
